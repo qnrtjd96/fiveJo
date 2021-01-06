@@ -1,0 +1,25 @@
+db데이터넣기
+
+create table person
+(
+	empno  CHAR(4) not null,
+	empname  VARCHAR(20),
+	deptcode CHAR(5),
+	hiredate CHAR(8),
+	position CHAR(1),
+	primary key(empno)
+) ;
+
+
+insert into person values ('1001','김행복','10','20140101','2');
+insert into person values ('1002','이축복','20','20120304','1');
+insert into person values ('1003','장믿음','20','20040101','1');
+insert into person values ('1004','최사랑','30','20050506','3');
+insert into person values ('1005','진평화','30','20060401','3');
+insert into person values ('1006','차우정','10','20170101','1');
+insert into person values ('1007','조성공','30','20010101','4');
+insert into person values ('1008','임희망','30','20180101','1');
+
+
+select empno, empname, deptcode, hiredate, POSITION from person
+ order by empno asc;

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>회원추가</title>
+</head>
+<body>
+<form action="insert_action.jsp" method="post" name="form1" onsubmit="return check();">
+사용자 ID:<input type="text" name="id">    <br>
+암호:<input type="password" name="password" onkeyup="this.value=check_num(this.value)">        <br>
+이름:<input type="text" name="name">        <br>
+E-MAIL:<input type="email" name="email">     <br>
+<input type="submit" value="확인">
+<input type="button" value="취소" onclick="">
+</form>
+</body>
+</html>
