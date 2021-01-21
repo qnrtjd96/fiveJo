@@ -30,7 +30,7 @@
    }
    %>
    </section>
-   
+   <!-- 테스트 테스트테스트 branch 가지따기 테스트 -->
    <footer>
      <%@include file="main_footer.jsp"%>
    </footer>
